@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/651042-gettyimages-1326020302-1d9204174e38a6ab19b0718c3965f0f7.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    cursor: pointer;
+}
+
+img {
+    width: 200px; /* Adjust size as necessary */
+    height: auto;
+    transition: transform 2s ease-in-out;
+    transform-origin: center;
+}
